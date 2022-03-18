@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Enlaces</title>
+<style type="text/css">
+    header, nav, main, footer{
+        width: 100%;
+        background-color: darksalmon;
+        color: white;
+     
+        }
+    nav{
+    text-align: center;
+    font-size: large;
+    height: 100%;
+    width: 100%;
+    }
+    header{
+        background-color: brown;
+        text-align: center;
+    }
+    h1{
+        width: 50%;
+        height: auto;
+		text-align: center;
+    }
+    .enlace {
+    list-style-type: none;
+    display: inline;
+    clear: none;
+    font-style: normal;
+    text-align: center;
+    vertical-align: -20px;
+    text-transform: none;
+    background-size: auto auto;
+    background-position: 0 0%;
+    background-clip: border-box;
+    text-decoration: none;
+    float: none;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+    
+    main{
+        background-color: chocolate;
+        width: auto;
+        height: auto;
+        
+        
+    }
+    footer{
+        background-color: brown;
+        height: auto;
+        width: auto;
+        text-align: center;
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        vertical-align: 18px;
+        border-spacing: 0 0;
+        margin-top: 0px;
+    }
+    .caja_general{
+        margin:20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 20px;
+        width: 80%;
+    }
+    .caja_section{
+        width: 50%;
+        background-color: coral;
+        color: beige;
+        /*padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 100px;*/
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .caja_section_impares{
+        background-color:brown;
+        color: cornsilk;
+    }
+    .caja_section_pares{
+        background-color:darkgoldenrod;
+        color: bisque;
+        
+        /*padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;*/
+    }
+    .caja_altura {
+         height: auto;
+    }
+   
+    
+</style>
+</head>
+    
+<body>
+<header>
+    <h1>Enlaces en html&nbsp;</h1>
+    </header>
+<nav>
+<ul>
+    <ul class="menu">
+    <li class="enlace"><a href="c2">Enlace externo</a></li>
+    <li class="enlace"><a href="c2">Enlace interno</a></li>
+    <li class="enlace"><a href="c3">Enlace externo</a></li>
+    <li class="enlace"><a href="c4">Enlace con imagen</a></li>
+</ul>
+    </ul>
+    </nav>
+<main>
+    <section class="caja_section_impares caja_general">
+    <h2 style="padding-bottom: 0px">Enlace externo</h2>
+    <p>Lorem ipsum dolor sit amt cosectetur adispiscing elit Nisi...<a href="http://www.udlap.mx" title="UDLAP" target="new">UDLAP</a>lorem ipsum dolor sit amet...<a href="http://www.buap.mx">BUAP</a></p>
+    </section>
+       <section id="c2" class="caja_section_pares caja_general">
+    <h2>Enlace relativo</h2>
+    <p>este es el contenido de la etiqueta p<a href="tablas-rayas.html">Estilos de texto</a>magna sequi consequuntur dignissimo...</p>
+    </section>
+       <section id="c3" class="caja_section_impares caja_general">
+    <h2>Enlace a correo electronico h2</h2>
+    <p>Lorem ipsum dolor it amet cosectetur adiposicing elit. &nbsp; Libero reprehenderi quis misme dolore consectetur suscipit boluptatum eutem nimquam sed magnam dolores a fugit placear quaerat eiud...
+    <a href="mailto: lfherrera_96@hotmail.com">Felipe Herrera&nbsp;</a></p>
+    </section>
+    <section id="c4" class="caja_section_pares caja_general" id="caja_atura">
+    <h2>Enlace con imagen</h2>
+    <p>Lorem ipsum dolor sit amet cosectetur suscipit boluptatum autem nmquam...</p>
+     <a href="https://es.wikipedia.org/wiki/M%C3%A9xico"><img src=  "img/Recurso.png"alt="Ilustración de México" >   
+           </a>
+        <p>&nbsp;</p>
+    <a href="http://www.amazon.com" target="new"> amazon </a>
+    
+    </section>
+    </main>
+<footer>
+    <h5>Elaborado por Luis Felipe Herrera</h5>
+    </footer>
+</body>
+</html>

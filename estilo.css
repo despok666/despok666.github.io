@@ -1,0 +1,28 @@
+/*CSS document*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: content-box;
+}
+
+body{
+    color:white
+}
+header,nav,main,footer{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    height: 250px;
+    background-color: #D67371;
+
+}
+nav{
+    height: 250px;
+    background-color: #6A638C;
+}
+main{
+    height: auto;
+    background-color: #f8cde0;
+    padding: 50px;
+}
